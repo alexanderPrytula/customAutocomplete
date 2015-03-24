@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: normal 1em/1.5 Tahoma;
+	color: #555;
+}
+
+section {
+	margin: 20px 0 0 20px;
+}
+
+.divPrompt {
+	position: absolute;
+	padding: 5px 10px;
+	border: 1px solid #555;
+	box-sizing: border-box;
+	border-radius: 3px;
+	background: #dedede;
+}
+
+.prompt-off {
+	display: none;
+}
+
+.ulPrompt {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.ulPrompt li {
+	cursor: pointer;
+}
+
+.ulPrompt li:hover {
+	text-decoration: underline;
+}
+
+[name="search"] {
+	padding: 3px 5px;
+}
