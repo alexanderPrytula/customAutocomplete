@@ -42,7 +42,7 @@
 			 // has elems ?
 			if( div.children[0].children.length ) {           
 				div.classList.remove('prompt-off');
-				search.insertAdjacentElement('afterEnd', div);
+				input.insertAdjacentElement('afterEnd', div);
 			}
 			
 			// click on item ?
@@ -51,7 +51,7 @@
 				li.addEventListener('click', function(ev) {
 					
 					div.classList.add('prompt-off');
-					search.value = ev.target.innerHTML;
+					input.value = ev.target.innerHTML;
 					
 				});
 			});
