@@ -32,9 +32,9 @@
 			
 			// match ?
 			var matchList = [];
-			for(var i = 0; i<ary.length; i++) {
-				if( ary[i].match( new RegExp( val, 'i' ) ) !== null ) {
-					matchList.push( ary[i] );
+			for(var i = 0; i<arr.length; i++) {
+				if( arr[i].match( new RegExp( val, 'i' ) ) !== null ) {
+					matchList.push( arr[i] );
 				}
 			}
 			createList( matchList );
